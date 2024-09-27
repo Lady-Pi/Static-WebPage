@@ -43,7 +43,7 @@ Resources:
               OriginAccessIdentity: !Sub "origin-access-identity/cloudfront/${CloudFrontOAI}"
         DefaultCacheBehavior:
           TargetOriginId: S3Origin
-          ViewerProtocolPolicy: allow-all
+          ViewerProtocolPolicy: redirect-to-https  # Enforces HTTPS
           AllowedMethods:
             - GET
             - HEAD
