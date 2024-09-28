@@ -5,7 +5,7 @@ The goal of this project is the deployment of a simple static webpage on Amazon 
 The web page itself is a  static 'Hello World' file for demonstration purposes only.
 
 ### User Access
-All global visitors access the website via the CloudFront distribution URL
+Global visitors access the website via the CloudFront distribution URL
 https://d2pftt2xeh25n7.cloudfront.net
 
 ### Traffic Routing: 
