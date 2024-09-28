@@ -1,5 +1,5 @@
 ﻿# Static-WebPage
-## Hosting a simple webpage on AWS project
+## Hosting a simple webpage on AWS 
 
 The goal of this project is the deployment of a simple static webpage on Amazon Web Services (AWS). The project includes the design of the cloud architecture and deploying it. 
 The web page itself is a  static 'Hello World' file for demonstration purposes only.
