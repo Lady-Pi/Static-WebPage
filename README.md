@@ -21,7 +21,7 @@ Origin Access Identity ensures that only CloudFront can access the S3 bucket, pr
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/Lady-Pi/Static-WebPage.git
 
 2.  Navigate to the project directory:
 
