@@ -16,6 +16,11 @@ CloudFront acts as the CDN, routing user requests to the nearest edge location t
 The S3 bucket hosts the static HTML page. CloudFront fetches the static content (HTML file) from the S3 bucket. 
 Origin Access Identity ensures that only CloudFront can access the S3 bucket, preventing direct access by users.
 
+## Prerequisites
+
+- AWS Command Line Interface installed and configured.
+- IAM user with permissions to create and manage CloudFormation stacks, S3 buckets, and CloudFront distributions.
+
 ## Installation instructions
 
 1. Clone the repository:
@@ -24,8 +29,14 @@ Origin Access Identity ensures that only CloudFront can access the S3 bucket, pr
    git clone https://github.com/Lady-Pi/Static-WebPage.git
 
 2.  Navigate to the project directory:
+  
+  ```bash
+   cd <project-folder>
 
-cd your-repository
+3. Deploy the CloudFormation stack:
+
+```bash
+aws cloudformation create-stack --stack-name my-secure-static-website --template-body file://cloudformation-template.yaml --capabilities CAPABILITY_NAMED_IAM
 
 4. Wait until the stack creation is complete. You can check the status using:
 
@@ -33,4 +44,5 @@ cd your-repository
 
 5. Access the website using the CloudFront distribution URL:
 
+  ```bash
  https://d2pftt2xeh25n7.cloudfront.net
