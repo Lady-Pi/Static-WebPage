@@ -1,4 +1,17 @@
 # Static-WebPage
+
+Course: Cloud Programming (DLBSEPCP01)
+
+Task: Host a simple webpage on AWS 
+
+Student: Lisa van der Linden
+
+Matriculation 9218894
+
+BSc Applied Artifical Intelligence
+
+International University of Applied Sciences
+
 ## Hosting a simple webpage on AWS 
 
 The goal of this project is the deployment of a simple static webpage on Amazon Web Services (AWS). The project includes the design of the cloud architecture and deploying it. 
